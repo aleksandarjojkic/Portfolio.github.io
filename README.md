@@ -16,3 +16,8 @@ Here are some of my projects:
 - **Back-end**: Node.js, PHP, Python
 - **Databases**: MySQL
 
+## How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://aleksandarjojkic.github.io/Portfolio.github.io/
+
