@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e8b309468c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/AJ_2.png">
+</head>
+<body>
+
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/AJ_2.png" alt="Logo">
+        </div>
+        <ul>
+            <li>
+                <a href="#about" title="About me">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span class="menu-text">About me</span>
+                </a>
+            </li>
+            <li>
+                <a href="#projects" title="Projects">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <span class="menu-text">Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="#skills" title="Skills">
+                    <i class="fa-solid fa-wrench"></i>
+                    <span class="menu-text">Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="#contact" title="Contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="menu-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- MAIN -->
+    <div class="main-content">
+        <!-- ABOUT -->
+        <section id="about" class="content">
+            <h1>Aleksandar Jojkić</h1>
+            <h3>Web-Developer.</h3>
+            <p>Hi! I'm Aleksandar Jojkić, a graduate engineer in management and a master's student passionate about web development. Currently, I'm honing my front-end skills on Codecademy and plan to dive into back-end development. I love building interactive UIs, optimizing performance, and exploring new web technologies. In my free time, I enjoy biking and bouldering.
+            </p>
+        </section>
+
+
+    <!-- SEKCIJA PROJEKTI -->
+    <section id="projects">    
+        <h2 class="section-title">Projects</h2> <!-- Dodata klasa za stilizovanje -->
+        <div class="slider">
+            <div class="slides">
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <img src="img/Go travel site!.png" alt="Project 1" id="img_proj">
+                    <p>A simple website that allows users to browse and sign up for trips. A responsive design and intuitive interface make navigation and booking arrangements easy for users.</p>
+                </div>
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <img src="img/Century gaming.png" alt="Project 2">
+                    <p>A website that allows users to explore and download games easily and quickly. It features category browsing, game descriptions, and direct download links.</p>
+                </div>
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <img src="img/Drive moto.png" alt="Project 3">
+                    <p>A website for scheduling car services and selling parts. Users can browse available services, order parts, and book repair appointments online.</p>
+                </div>
+            </div>
+            <!-- CONTROLS FOR SLIDER -->
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </section>
+
+
+    <!--SEKCIJA SKILLS-->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="img_grid">
+                <div class="card" id="card1">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="card" id="card2">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="card" id="card3">
+                    <i class="fa-brands fa-js"></i>
+                    <p>Java_script</p>
+                </div>
+                <div class="card" id="card4">
+                    <i class="fa-brands fa-react"></i>
+                    <p>React_js</p>
+                </div>
+    
+                <div class="card" id="card5">
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="card" id="card6">
+                    <i class="fa-brands fa-php"></i>
+                    <p>PHP</p>
+                </div>
+                <div class="card" id="card7">
+                    <i class="fa-solid fa-database"></i>
+                    <p>MySQL</p>
+                </div>
+                <div class="card" id="card8">
+                    <i class="fa-brands fa-node-js"></i>
+                    <p>Node_js</p>
+                </div>
+        </div>
+    </section>
+
+
+    <!--SEKCIJA KONTAKT-->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>FIND ME ON</h2>
+            <p>Feel free to connect with me</p>
+            <div class="social-links">
+                <a href="https://github.com/aleksandarjojkic" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aleksandar-jojkić-3222382b7/" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:aleksandarjoj10@gmail.com" target="_blank" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <p class="footer-text">
+                <span>Designed and Developed by Aleksandar Jojkić</span>
+                <span>Copyright © 2025 A.J.</span>
+            </p>
+        </div>
+
+    <script src="function.js"></script>
+</body>
+</html>
